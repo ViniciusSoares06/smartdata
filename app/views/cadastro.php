@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>Cadastro de Usuário</title>
+    <title>SmartData | Cadastro</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css?<?php echo time(); ?>">
+    <link rel="icon" type="image/png" href="img/smartdatalogo.png">
 </head>
 <body>
     <h1>Cadastro de Usuário</h1>
