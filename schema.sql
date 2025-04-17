@@ -1,0 +1,18 @@
+CREATE DATABASE IF NOT EXISTS `db_smartdata`;
+USE `db_smartdata`;
+
+CREATE TABLE IF NOT EXISTS `users` (
+  `id` INT AUTO_INCREMENT PRIMARY KEY,
+  `nome` VARCHAR(50) NOT NULL,
+  `username` VARCHAR(100) NOT NULL,
+  `senha` VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS `clientes` (
+  `id` INT AUTO_INCREMENT PRIMARY KEY,
+  `nome` VARCHAR(50) NOT NULL,
+  `documento` VARCHAR(11) NOT NULL,
+  `telefone` INT NOT NULL,
+  `email` TEXT NOT NULL,
+  `endereco` VARCHAR(255) NOT NULL
+);
